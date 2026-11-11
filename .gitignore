@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local application data and secrets
+diagnosis_history.json
+.streamlit/secrets.toml
+
+# Machine-specific editor settings
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
