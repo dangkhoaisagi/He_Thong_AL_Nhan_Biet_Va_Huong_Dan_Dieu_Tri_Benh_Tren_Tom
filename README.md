@@ -63,7 +63,7 @@ Mở PowerShell hoặc Command Prompt:
    python -m streamlit run app.py
    ```
 
-   Hoặc nhấp đúp `run_app.bat` sau khi đã cài dependencies và đảm bảo Python trong môi trường ảo đã được kích hoạt trong terminal. Streamlit thường mở trình duyệt tại [http://localhost:8501](http://localhost:8501).
+   Hoặc nhấp đúp `run_app.bat` sau khi đã cài dependencies. File này tự dùng Python trong `.venv` nếu có; nếu không, nó dùng Python có sẵn trong `PATH`. Streamlit thường mở trình duyệt tại [http://localhost:8501](http://localhost:8501).
 
 ## Chạy trên macOS/Linux
 
@@ -83,7 +83,7 @@ Sau đó mở [http://localhost:8501](http://localhost:8501) nếu trình duyệ
 
 ## Chạy nhanh trên Windows bằng file BAT
 
-Sau khi clone, tải LFS, cài dependencies và kích hoạt đúng môi trường Python, chạy:
+Sau khi clone, tải LFS và cài dependencies, chạy:
 
 ```bat
 run_app.bat
